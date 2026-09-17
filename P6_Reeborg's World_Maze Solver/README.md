@@ -4,11 +4,13 @@ An algorithmic Python challenge completed using **Reeborg's World**. The objecti
 
 ## Project Overview
 
-This challenge focuses on algorithmic problem solving rather than simply executing a predefined sequence of movements.
+This challenge focuses on algorithmic problem-solving rather than simply executing a predefined sequence of movements.
 
 Instead of manually specifying the path through the maze, the program continuously checks Reeborg's surroundings and determines the next action based on the available paths.
 
 The solution uses the **right-hand rule**, also known as the **wall-following algorithm**.
+
+It is important to complete the challenge with the least number of lines of code.
 
 ## Algorithm
 
