@@ -1,0 +1,59 @@
+# Number Guessing Game
+
+The player guesses a randomly generated number between 1 and 100 and receives hints after each incorrect guess.
+
+The game features two difficulty levels, input validation, an attempt counter, and the option to replay multiple rounds.
+
+## Game Rules
+
+Guess a randomly generated number between 1 and 100.
+
+| Difficulty | Allowed Attempts |
+| ---------- | ---------------: |
+| Easy       |               10 |
+| Hard       |                5 |
+
+### How to Play
+
+1. Start the game.
+2. Select a difficulty level: `easy` or `hard`.
+3. Enter a number between 1 and 100.
+4. Receive a hint:
+
+   * **Too high:** Your guess is greater than the answer.
+   * **Too low:** Your guess is less than the answer.
+5. Continue guessing until you find the correct number or run out of attempts.
+6. Choose whether to play another round.
+
+Invalid entries do not consume attempts.
+
+## Example Gameplay
+
+```text
+Welcome to the Number Guessing Game!
+I'm thinking of a number between 1 and 100.
+
+Choose a difficulty. Type 'easy' or 'hard': easy
+
+You have 10 attempts to guess the number.
+
+Make a guess: 50
+Too high.
+You have 9 attempts remaining.
+Guess again.
+
+Make a guess: 25
+Too low.
+You have 8 attempts remaining.
+Guess again.
+
+Make a guess: 35
+You got it! The answer was 35.
+Congratulations! You win!
+
+Would you like to play again? (yes/no): no
+Thanks for playing. Goodbye!
+```
+
+*Note: The example answer and hints are illustrative; each round generates a new random number.*
+
